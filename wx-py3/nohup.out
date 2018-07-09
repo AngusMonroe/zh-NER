@@ -1,0 +1,28 @@
+http://0.0.0.0:5088/
+Traceback (most recent call last):
+  File "main.py", line 17, in <module>
+    app.run()
+  File "/home/xjx/anaconda3/lib/python3.6/site-packages/web/application.py", line 341, in run
+    return wsgi.runwsgi(self.wsgifunc(*middleware))
+  File "/home/xjx/anaconda3/lib/python3.6/site-packages/web/wsgi.py", line 59, in runwsgi
+    return httpserver.runsimple(func, server_addr)
+  File "/home/xjx/anaconda3/lib/python3.6/site-packages/web/httpserver.py", line 177, in runsimple
+    server.start()
+  File "/home/xjx/anaconda3/lib/python3.6/site-packages/web/wsgiserver/wsgiserver3.py", line 1669, in start
+    raise socket.error(msg)
+OSError: No socket could be created -- (('0.0.0.0', 5088): [Errno 98] Address already in use)
+http://0.0.0.0:5088/
+Traceback (most recent call last):
+  File "main.py", line 17, in <module>
+    app.run()
+  File "/home/xjx/anaconda3/lib/python3.6/site-packages/web/application.py", line 341, in run
+    return wsgi.runwsgi(self.wsgifunc(*middleware))
+  File "/home/xjx/anaconda3/lib/python3.6/site-packages/web/wsgi.py", line 59, in runwsgi
+    return httpserver.runsimple(func, server_addr)
+  File "/home/xjx/anaconda3/lib/python3.6/site-packages/web/httpserver.py", line 177, in runsimple
+    server.start()
+  File "/home/xjx/anaconda3/lib/python3.6/site-packages/web/wsgiserver/wsgiserver3.py", line 1669, in start
+    raise socket.error(msg)
+OSError: No socket could be created -- (('0.0.0.0', 5088): [Errno 98] Address already in use)
+http://0.0.0.0:5088/
+http://0.0.0.0:5088/
