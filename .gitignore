@@ -116,3 +116,4 @@ log.*
 data
 extract_info.py.py
 dataset
+en-NER
